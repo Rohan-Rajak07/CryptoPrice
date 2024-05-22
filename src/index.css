@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Inter:wght@100..900&display=swap');
+:root {
+  --white: #fff;
+  --black: #111;
+  --blue: #3a80e9;
+  --grey: #888;
+  --darkgrey: #1b1b1b;
+  --green: #61c96f;
+  --red: #f94141;
+}
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  /* -webkit-font-smoothing:antialised; */
+  -moz-osx-font-smoothing:auto;
+  background-color: #111;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+a{
+  color: white;
+  text-decoration: none;
+  
+}
