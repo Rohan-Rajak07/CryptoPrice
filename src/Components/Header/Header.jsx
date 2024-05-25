@@ -10,7 +10,7 @@ const Header = () => {
     <header>
       <nav className='header'>
         <div className='logo'>
-          <img src="./icon.png" alt="" />
+          <img src="./bitcoin.png" alt="" />
           <h1>CryptoPrice</h1>
         </div>
         <div className="link">

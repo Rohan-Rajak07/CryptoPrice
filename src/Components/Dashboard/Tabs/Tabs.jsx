@@ -6,7 +6,8 @@ import TabPanel from "@mui/lab/TabPanel";
 import Grid from "../Grid/Grid";
 import "./Tabs.css";
 import List from "../List/List";
-
+import { Link } from 'react-router-dom';
+import { toast } from 'react-toastify';
 
 
 export default function Tabs({ coins }) {
@@ -21,6 +22,7 @@ export default function Tabs({ coins }) {
     "& .Mui-selected": {
       color: "var(--blue) !important",
     },
+
     fontFamily: "Inter,sans-serif",
     fontWeight: 600,
     textTransform: "capitalize",
@@ -45,6 +47,10 @@ export default function Tabs({ coins }) {
               <h1 style={{ textAlign: "center" }}>
                 Sorry, Couldn't find the coin you're looking for 😞
               </h1>
+              <center style={{margin:"10px"}}>
+                <a Link to="/dash"><button>Refresh</button></a>
+                
+              </center>
               <div
                 style={{
                   display: "flex",
