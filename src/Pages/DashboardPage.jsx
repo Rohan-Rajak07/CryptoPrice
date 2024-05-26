@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import Tabs from "../Components/Dashboard/Tabs/Tabs";
 import Header from "./../Components/Header/Header";
 import axios from "axios";
@@ -35,8 +35,8 @@ const DashboardPage = () => {
   });
   return (
     <>
-    {isLoading ? <Loader/> : <div>
     <Header />
+    {isLoading ? <Loader/> : <div>
     <Search search={search} onSearchChange={onSearchChange}/>
     <Tabs coins={filterCoin} />
   </div>}

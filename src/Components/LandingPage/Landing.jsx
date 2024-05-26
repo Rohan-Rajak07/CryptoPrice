@@ -42,13 +42,13 @@ const Landing = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.25, duration: 0.75 }}
       >
-        <Link to ="/dashboard">
+        <Link to ="/CryptoPrice/dashboard">
           <Btn text={"Dashboard"} />
         </Link>
         <RWebShare
           data={{
             text: "CryptoDashboard made by Avi Vashishta using React JS.",
-            url: "https://crypto-dashboard-jan.netlify.app",
+            url: "https://rohan-rajak07.github.io/CryptoPrice/",
             title: "CryptoTracker.",
           }}
           onClick={() => toast.info("App Shared!")}

@@ -7,6 +7,10 @@
     align-items: center;
     justify-content: space-between;
 }
+header{
+    /* position: sticky;
+    top: 0px; */
+}
 
 .logo{
     display: flex;
